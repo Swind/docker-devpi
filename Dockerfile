@@ -11,6 +11,5 @@ RUN pip install --no-cache-dir -r /requirements.txt && \
 
 VOLUME /mnt
 EXPOSE 3141
-USER 997
 
 CMD "/run.sh"
